@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="titlepage.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>The title includes an English surname, so normal capitalization of the "d'" prefix is suspended.</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>The title includes an English surname, so normal capitalization of the "d'" prefix is suspended.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-6.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Title contains two sentences with the second one beginning with the word "And," which needs to be capitalized.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
