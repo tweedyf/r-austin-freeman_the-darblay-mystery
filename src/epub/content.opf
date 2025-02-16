@@ -26,8 +26,8 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">The d’Arblay Mystery</dc:title>
-		<meta property="file-as" refines="#title">d’Arblay Mystery, The</meta>
+		<dc:title id="title">The D’Arblay Mystery</dc:title>
+		<meta property="file-as" refines="#title">D’Arblay Mystery, The</meta>
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
 		<dc:subject id="subject-2">London (England) -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Thorndyke, Doctor (Fictitious character) -- Fiction</dc:subject>
@@ -40,45 +40,38 @@
 		<meta property="term" refines="#subject-3">sh2010116504</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008108880</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Mystery</meta>
+		<dc:description id="description">Newly qualified doctor Stephen Gray finds himself entangled in the mysterious death of an artist, Julius D’Arblay, after discovering his body in a secluded pond.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;While out collecting pond water samples early one morning, newly qualified doctor Stephen Gray chances upon a dead body in the Queen’s Wood. The body turns out to be that of an artist, Julius D’Arblay. Assisted by renowned ‘medical jurist’ Dr. John Thorndyke and by D’Arblay’s daughter Marion, Gray finds himself embroiled in a plot that will test his wits, endanger his life, and perhaps even lead to love.&lt;/p&gt;
+			&lt;p&gt;Although narrated by earnest junior doctor Stephen Gray, the mystery of the D’Arblay case is unraveled by renowned forensic scientist Dr. John Thorndyke, protagonist of 21 novels and numerous short stories by &lt;a href="https://standardebooks.org/ebooks/r-austin-freeman"&gt;R. Austin Freeman&lt;/a&gt;. Freeman is noted for the medical and scientific accuracy of his mysteries, and for originating the inverted detective story.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/70996</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://catalog.hathitrust.org/Record/102874558</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/r-austin-freeman_the-darblay-mystery</meta>
 		<dc:creator id="author">R. Austin Freeman</dc:creator>
 		<meta property="file-as" refines="#author">Freeman, R. Austin</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Richard Austin Freeman</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/R._Austin_Freeman</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n50026377</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Elwin Hawthorne</dc:contributor>
+		<meta property="file-as" refines="#artist">Hawthorne, Elwin</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Elwin_Hawthorne</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Brian Raiter</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Raiter, Brian</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Edmund Tweedy Flanigan</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Flanigan, Edmund Tweedy</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://tweedy.flanigan.us</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
